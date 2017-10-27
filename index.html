@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 6]>
+<html id="ie6" <?php language_attributes(); ?>>
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" <?php language_attributes(); ?>>
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" <?php language_attributes(); ?>>
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html>
+<head>
+<!-- Basic Page Needs -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="author" content="" />
+<meta name="description" content="" /> 
+<meta name="keywords" content="" />
+<meta name="robots" content="index, follow, noarchive" />
+
+<title>Документ без названия</title>
+
+<!-- Check device width for responsive media queries -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<!-- favicon.ico -->
+<link rel="shortcut icon" href="favicon.ico">
+
+<!--Stylesheets--> 
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.min.css"/>
+
+<!--Script--> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/classie.js"></script>
+<script type="text/javascript" src="js/uisearch.js"></script>
+
+<!-- HTML5 and CSS3-in older browsers-->
+<script type="text/javascript" src="js/modernizr-latest.js" ></script>
+ 
+</head>
+<body>
+<header>
+<div id="logo"><span><a href="http://trueunits.ru" title="">True Units</a></span></div>
+<div id="head-inf">
+<ul>
+<li><i class="fa fa-envelope-o"></i><span>zakaz@trueunits.ru</span></li>
+<li><i class="fa fa-mobile"></i><span>+7(383)233-**-**</span></li>
+</ul>
+</div>
+<nav>
+<div id="sb-search" class="sb-search">
+						<form>
+							<input class="sb-search-input" placeholder="Искать..." type="text" value="" name="search" id="search">
+							<input class="sb-search-submit" type="submit" value="">
+							<span class="sb-icon-search"></span>
+						</form>
+					</div>
+<ul class="navigation">
+
+				<li><a href="index.html" title="">главная</a></li>
+				<li><a href="about.html" title="">о компании </a></li>
+				<li><a href="delivery.html" title="">доставка</a></li>
+				<li><a href="payment.html" title="">оплата</a></li>
+				<li><a href="recall.html" title="">отзывы</a></li>
+                <li><a href="contact.html" title="">контакты</a></li>
+            
+
+            			</ul>
+</nav>
+ <div class="h-title">
+<h1>КОНТРАКТНЫЕ ДВИГАТЕЛИ И КОРОБКИ ПЕРЕДАЧ</h1>
+</div>
+</header>
+<div class="content content-index">
+<div id="catalog">
+<div id="column">
+<ul>
+<li><a href="catalog.html" title="">Audi</a></li>
+<li><a href="#" title="">BMW</a></li>
+<li><a href="#" title="">Chevrolet</a></li>
+<li><a href="#" title="">Citroen/Peugeot</a></li>
+<li><a href="#" title="">Daewoo</a></li>
+</ul>
+</div>
+<div id="column">
+<ul>
+<li><a href="#" title="">Fiat</a></li>
+<li><a href="#" title="">Ford</a></li>
+<li><a href="#" title="">Honda</a></li>
+<li><a href="#" title="">Hyundai/KIA</a></li>
+<li><a href="#" title="">Land Rover</a></li>
+</ul>
+</div>
+<div id="column">
+<ul>
+<li><a href="#" title="">Mazda</a></li>
+<li><a href="#" title="">Mercedes</a></li>
+<li><a href="#" title="">Mitsubishi</a></li>
+<li><a href="#" title="">Nissan</a></li>
+<li><a href="#" title="">Opel</a></li>
+</ul>
+</div>
+<div id="column">
+<ul>
+<li><a href="#" title="">Renault</a></li>
+<li><a href="#" title="">Saab</a></li>
+<li><a href="#" title="">Skoda</a></li>
+<li><a href="#" title="">Ssang Yong</a></li>
+<li><a href="#" title="">Subaru</a></li>
+</ul>
+</div>
+<div id="column">
+<ul>
+<li><a href="#" title="">Suzuki</a></li>
+<li><a href="#" title="">Toyota</a></li>
+<li><a href="#" title="">Volkswagen</a></li>
+<li><a href="#" title="">Volvo</a></li>
+<li><a href="#" title="">Прочие авто</a></li>
+</ul>
+</div>
+</div>
+<figure id="car"><img alt="" src="images/car.png"/></figure>
+</div>
+<footer>
+<div id="f-menu">
+<ul>
+				<li><a href="about.html" title="">о компании </a></li>
+				<li><a href="delivery.html" title="">доставка</a></li>
+				<li><a href="payment.html" title="">оплата</a></li>
+				<li><a href="recall.html" title="">отзывы</a></li>
+                <li><a href="contact.html" title="">контакты</a></li>
+</ul>
+</div>
+<div id="copyright">
+	<p>&copy; True Units. All rights reserved. | Design by <a href="http://yadaniblog.ru" rel="">yaDaNi</a></p>
+</div>
+</footer>
+<script>
+$(document).ready(function(){
+var link = window.location.pathname;
+$("ul.navigation li").each(function() {
+if (this.getElementsByTagName("a")[0].href == location.href) this.className = "active";});
+});
+
+
+new UISearch( document.getElementById( 'sb-search' ) );
+		
+	jQuery(function(){
+   jQuery("a.gallery").lightBox();
+	});
+	
+</script>
+</body>
+</html>

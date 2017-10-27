@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 6]>
+<html id="ie6" <?php language_attributes(); ?>>
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" <?php language_attributes(); ?>>
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" <?php language_attributes(); ?>>
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html>
+<head>
+<!-- Basic Page Needs -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="author" content="" />
+<meta name="description" content="" /> 
+<meta name="keywords" content="" />
+<meta name="robots" content="index, follow, noarchive" />
+
+<title>Документ без названия</title>
+
+<!-- Check device width for responsive media queries -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<!-- favicon.ico -->
+<link rel="shortcut icon" href="favicon.ico">
+
+<!--Stylesheets--> 
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.min.css"/>
+<link rel="stylesheet" type="text/css" media="screen" href="css/jquery.lightbox-0.5.css"/>
+
+<!--Script--> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/classie.js"></script>
+<script type="text/javascript" src="js/uisearch.js"></script>
+<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+
+<!-- HTML5 and CSS3-in older browsers-->
+<script type="text/javascript" src="js/modernizr-latest.js" ></script>
+ 
+</head>
+<body>
+<header>
+<div id="logo"><span><a href="http://trueunits.ru" title="">True Units</a></span></div>
+<div id="head-inf">
+<ul>
+<li><i class="fa fa-envelope-o"></i><span>zakaz@trueunits.ru</span></li>
+<li><i class="fa fa-mobile"></i><span>+7(383)233-00-10</span></li>
+</ul>
+</div>
+<nav>
+<div id="sb-search" class="sb-search">
+						<form>
+							<input class="sb-search-input" placeholder="Искать..." type="text" value="" name="search" id="search">
+							<input class="sb-search-submit" type="submit" value="">
+							<span class="sb-icon-search"></span>
+						</form>
+					</div>
+<ul class="navigation">
+				<li><a href="index.html" title="">главная</a></li>
+				<li><a href="about.html" title="">о компании </a></li>
+				<li><a href="delivery.html" title="">доставка</a></li>
+				<li><a href="payment.html" title="">оплата</a></li>
+				<li><a href="recall.html" title="">отзывы</a></li>
+                <li><a href="contact.html" title="">контакты</a></li>
+            			</ul>
+</nav>
+<div class="h-title">
+<h1>КОНТРАКТНЫЕ ДВИГАТЕЛИ И КОРОБКИ ПЕРЕДАЧ</h1>
+</div>
+</header>
+<div class="content">
+<p>В этом разделе вы можете оставить свои отзывы, высказать свои пожелания и предложения.</p>
+<div id="comment-hr">
+<h3><i class="fa fa-comments-o"></i>1 отзыв</h3> 
+</div>
+<ul class="commentlist"> 
+<li class="comment" id="li-comment">
+<div class="comment-body">
+<div class="comment-author">
+<img alt="" src="http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=30" class="avatar avatar-30 photo avatar-default" height="30" width="30"><cite class="fn"><a href="#" rel="external nofollow" class="url">Пользователь</a></cite><span class="says">:</span>
+</div>
+<div class="comment-meta">
+<a href="#">26.04.2015 в 09:23</a></div>
+<div id="textcomm"><p>Привет! Это комментарий.<br>
+Чтобы удалить его, авторизуйтесь и просмотрите комментарии к записи. Там будут ссылки для их изменения или удаления.</p>
+</div>
+<div class="reply">
+ <a class="comment-reply" href="#" onclick="">Ответить на комментарий</a></div>
+            </div>
+ </li><!-- #comment-## -->
+<ul class="children">
+<li class="comment" id="li-comment">
+<div class="comment-body">
+<div class="comment-author">
+<img alt="" src="http://0.gravatar.com/avatar/8b912c6a64c19099f9c8c3ed5c022b06?s=30&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D30&amp;r=G" class="avatar avatar-30 photo" height="30" width="30"> 
+<cite class="fn"><a href="#" rel="external nofollow" class="url">Администратор</a></cite><span class="says">:</span>               
+</div>
+<div class="comment-meta">
+<a href="#">26.04.2014 в 14:07</a>
+                </div>
+<div id="textcomm"><p>Спасибо за отзыв. Мы примем во внимание все ваши пожелания.</p>
+</div>
+<div class="reply">
+<a class="comment-reply" href="#" onclick="">Ответить на комментарий</a></div>
+            </div>
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</ul>
+<div class="form">
+<h3><i class="fa fa-pencil"></i>Оставить свое сообщение</h3>
+<form id="comment-form" method="post">
+<div id="form-inner">
+<p>Ваш e-mail не будет опубликован</p>
+<input type="text" class="fieldmore" id="name" placeholder="Ваше имя">
+<input type="email" class="fieldmore" id="email" placeholder="Ваш email">
+<textarea class="area" id="message" placeholder="Ваше сообщение здесь" name="comment" rows="10" cols="20"></textarea>
+<input type="submit" class="button" value="Отправить">
+</div>
+</form>
+</div>
+</div>
+  
+<footer  class="footer">
+<div id="f-menu">
+<ul>
+				<li><a href="about.html" title="">о компании </a></li>
+				<li><a href="delivery.html" title="">доставка</a></li>
+				<li><a href="payment.html" title="">оплата</a></li>
+				<li><a href="recall.html" title="">отзывы</a></li>
+                <li><a href="contact.html" title="">контакты</a></li>
+</ul>
+</div>
+<div id="copyright">
+	<p>&copy; True Units. All rights reserved. | Design by <a href="http://yadaniblog.ru" rel="">yaDaNi</a></p>
+</div>
+</footer>
+<script>
+$(document).ready(function(){
+var link = window.location.pathname;
+$("ul.navigation li").each(function() {
+if (this.getElementsByTagName("a")[0].href == location.href) this.className = "active";});
+});
+			new UISearch( document.getElementById( 'sb-search' ) );
+		
+	jQuery(function(){
+   jQuery("a.gallery").lightBox();
+	});
+	</script>
+</body>
+</html>
